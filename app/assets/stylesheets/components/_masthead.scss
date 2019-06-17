@@ -9,7 +9,6 @@
 .language-nav {
 	position: absolute;
 	top: -15px;
-	left: calc(50% - (177.78px/2));
 	background: white;
 	border: 1px solid $light-gray;
 	border-bottom: none;
@@ -25,13 +24,26 @@
 	color: $dark-gray;
 }
 
+.language-nav li:first-of-type {
+  font-weight: 800;
+}
+
 .language-nav ul {
 	display: flex;
 }
 
+.language-nav li:hover > a {
+  text-decoration: underline;
+}
+
 .logo {
-	max-width: 400px;
 	margin-top: 10px;
+  font-family: 'Bevan', $serif;
+  font-size: 36px;
+}
+
+.logo:hover {
+  cursor: pointer;
 }
 
 .masthead-links {
@@ -42,9 +54,17 @@
 	margin-bottom: 10px;
 }
 
+.masthead-links a:hover {
+  text-decoration: underline;
+}
+
 .masthead-links li {
 	margin-left: 10px;
 	border-right: 1px solid $light-gray;
+}
+
+.masthead-links li:last-of-type {
+  border-right: 0;
 }
 
 .masthead-links button {
@@ -56,7 +76,7 @@
 }
 
 .masthead-links button:hover {
-	background-color: $lightest-gray;
+	background-color: $light-gray;
 }
 
 .masthead-links a,
