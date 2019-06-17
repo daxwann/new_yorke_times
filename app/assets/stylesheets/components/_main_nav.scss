@@ -1,34 +1,53 @@
 .main-nav {
-
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid $light-gray;
+  padding: 10px;
+  padding-right: 0px;
 }
 
 .left-nav > ul,
 .right-nav > ul {
-
+  display: flex;
 }
 
 .left-nav > ul > li {
+  padding: 8px;
+  border-radius: 3px;
+  margin-left: 3px;
+  font-size: 12px;
+}
 
+.left-nav i {
+  display: inline-block;
+  margin-right: 5px;
 }
 
 .right-nav > ul > li {
-
+  margin-right: 3px;
 }
 
 .right-nav > ul > li:last-of-type {
-
+  padding: 8px;
+  border-radius: 3px;
+  margin-right: 0px;
 }
 
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
-
+  background-color: $lightest-gray;
+  cursor: pointer;
 }
 
 .left-nav span {
-
+  color: $dark-gray;
+  font-family: $sans-serif;
+  font-weight: 900;
+  letter-spacing: -.1px;
+  text-transform: uppercase;
 }
 
 
 .right-nav i {
-
+  font-size: 12px;
 }
