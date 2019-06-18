@@ -10,15 +10,18 @@
   z-index: 3;
   font-family: $sans-serif;
   color: $dark-gray;
+  box-shadow: -1px 4px 6px 1px rgba(0, 0, 0, 0.09);
+  padding: 10px;
 }
 
-.gear-dropdown li {
+.gear-dropdown ul li {
   text-transform: uppercase;
-  padding: 10px;
+  padding: 5px 5px;
 }
 
 .gear-dropdown ul li:hover {
   background-color: $light-gray;
+  border-radius: 5px;
 }
 
 .gear-dropdown a {
@@ -26,8 +29,9 @@
 }
 
 .dropdown-subtitle {
-  padding: 10px;
+  padding: 10px 5px; 
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .help li {
