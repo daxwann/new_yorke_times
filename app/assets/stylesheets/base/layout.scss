@@ -12,7 +12,7 @@ body {
   font-size: 12px;
 }
 
-button {
+.btn {
 	background-color: $light-blue;
 	border-color: $dark-blue;
 	color: $lightest-gray;
@@ -27,7 +27,7 @@ button {
   letter-spacing: -.1px;
 }
 
-button:hover {
+.btn:hover {
 	background-color: $dark-blue;
 	border-color: $darkest-blue;
 }

@@ -28,6 +28,11 @@ img {
   height: auto;
 }
 
+iframe {
+  width: 100%;
+  display: block;
+}
+
 input[type="password"],
 input[type="email"],
 input[type="text"],
