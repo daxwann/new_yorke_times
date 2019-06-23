@@ -9,13 +9,17 @@ body {
   width: 80%;
   margin: 0 auto;
   font-family: $serif;
-  font-size: 12px;
+  font-size: 14px;
+}
+
+p {
+  line-height: 1.4;
 }
 
 .btn {
 	background-color: $light-blue;
 	border-color: $dark-blue;
-	color: $lightest-gray;
+	color: #fff;
 	font-weight: 900;
 	padding: 8px;
 	border-radius: 3px;
@@ -35,12 +39,16 @@ body {
 .hidden {
   display: none;
 }
+
+.center {
+  text-align: center;
+}
 /*
 	Header Rules
 */
 
 hr {
-	border: 0;
+  border: 0;
 	height: 1px;
 	background-color: $light-gray;
 }
@@ -54,3 +62,4 @@ hr {
 	height: 2px;
 	margin-bottom: 1px;
 }
+
