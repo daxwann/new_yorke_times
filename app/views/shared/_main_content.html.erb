@@ -69,7 +69,9 @@
       </h4>
       <p class="article-author">By NY OPERATIONS</p>
       <p>The new space features hardwood floors and brick walls for a modern technology space with an aura for learning.</p>
-      <img src="/assets/new_office.jpg" alt="interior of building">
+      <div class="thumbnail">
+        <img src="/assets/new_office.jpg" alt="interior of building">
+      </div>
     </article>
     <article>
       <h4 class="article-title article-title--sm">
@@ -78,15 +80,19 @@
       <p>Each weekday, get though-provoking commentary from our columnists and contributors.</p>
     </article>
   </section>
-  <section class="sign-up clear-both">  
-    <form action="#" method="POST">
+  <div class="clear-both">  
+    <form class="form__sign-up" action="#" method="POST">
+      <input type="text"
+        class="input__email"
+        name="subscriber[email]"
+        value="">
       <input type="submit"
-        class="btn"
+        class="btn input__submit"
         value="Sign Up">
     </form>
 
     <p>We'll also send offers to join the App Academy Bootcamp. You can never unsubscribe.</p>
-  </section>
+  </div>
   <hr class="hr-top">
   <hr class="hr-bottom">
 </section>

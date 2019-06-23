@@ -49,16 +49,17 @@
 
 /* Attribute selector targeting all elements
 with a class attribute containing 'col-' */
-[class*='col-'] {
+[class*="col-"] {
   padding-right: 10px;
 }
 
-[class*='col-']:last-of-type {
+[class*="col-"]:last-of-type {
   padding-right: 0;
 }
 
 @media all and (max-width: 1000px) {
   [class*='col-'] {
     width: 100%;
+    padding-right: 0;
   }
 }
