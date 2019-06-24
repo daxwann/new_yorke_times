@@ -29,7 +29,22 @@
   }
 }
 
+/* sidebar */
+
 .expand {
   opacity: 1;
   left: 0;
+}
+
+.sidebar-submenu {
+  position: relative;
+}
+
+.sidebar-submenu > ul {
+  display: none;
+  position: absolute;
+}
+
+.sidebar-submenu:hover > ul {
+  display: block;
 }
