@@ -1,0 +1,35 @@
+.sections-sidebar {
+  opacity: 0;
+  position: fixed;
+  left: -1000px;
+  top: 0;
+  width: 250px;
+  height: 100vh;
+  background-color: #fff;
+  z-index: 3;
+  transition: all 0.5s;
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.09);
+  border-radius: 3px;
+
+  .sections-links {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+    li {
+      font-size: 14px;
+      font-weight: 700;
+      padding: 10px;
+      border-radius: 3px;
+    }
+
+    li:hover {
+      background-color: $lightest-blue;
+    }
+  }
+}
+
+.expand {
+  opacity: 1;
+  left: 0;
+}

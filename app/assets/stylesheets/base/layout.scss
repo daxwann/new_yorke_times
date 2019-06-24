@@ -69,3 +69,23 @@ hr {
 	margin-bottom: 1px;
 }
 
+/* form */
+
+.form__sign-up {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+
+  .btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+}
+
+.input__email {
+  flex: 1;
+  border: 1px solid $gray;
+  padding: 5px 10px;
+  font-family: $sans-serif;
+}
+
