@@ -10,6 +10,40 @@
   margin-top: -1px;
 }
 
+.close {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 7px;
+  right: 12px;
+  background-color: $light-gray;
+  border-radius: 50%;
+}
+
+.close:hover {
+  background-color: $gray;
+}
+
+.close:before,
+.close:after {
+  position: absolute;
+  display: block;
+  content: "";
+  background-color: #fff;
+  height: 14px;
+  width: 2px;
+  left: 9px;
+  top: 3px;
+}
+
+.close:before {
+  transform: rotate(45deg);
+}
+
+.close:after {
+  transform: rotate(-45deg);
+}
+
 .form__search {
   display: flex;
   justify-content: center;
