@@ -10,6 +10,7 @@ body {
   margin: 0 auto;
   font-family: $serif;
   font-size: 14px;
+  overflow-x: hidden;
 }
 
 p {
@@ -82,10 +83,14 @@ hr {
   }
 }
 
-.input__email {
-  flex: 1;
-  border: 1px solid $gray;
+input[type="text"] {
+  border: 1px solid $light-gray;
   padding: 5px 10px;
   font-family: $sans-serif;
+  font-size: 16px;
+}
+
+.input__email {
+  flex: 1;
 }
 
